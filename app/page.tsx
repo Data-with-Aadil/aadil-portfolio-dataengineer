@@ -87,7 +87,6 @@ export default function Home() {
             Edu & Contact
             </a>
           </div>
-          </div>
 
           <div className="flex items-center gap-4">
           
