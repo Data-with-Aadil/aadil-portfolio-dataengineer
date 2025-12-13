@@ -150,7 +150,7 @@ export default function Home() {
                 <FileDown size={16} />
                 Resume
               </a>
-          
+            </div>
             </div>
         </div>
       </nav>
