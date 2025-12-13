@@ -1,6 +1,6 @@
 @import "tailwindcss";
 html {
-  font-size: 20px;
+  font-size: 25px;
 }
 :root {
   --background: #ffffff;
