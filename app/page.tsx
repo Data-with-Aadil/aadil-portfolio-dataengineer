@@ -110,7 +110,7 @@ export default function Home() {
           
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME"
+                href="https://www.linkedin.com/in/aadil-mansoori-29b358211/"
                 target="_blank"
                 aria-label="LinkedIn"
                 className={`p-2 rounded-full border transition
