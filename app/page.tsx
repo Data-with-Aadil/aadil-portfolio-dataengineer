@@ -87,6 +87,7 @@ export default function Home() {
             Edu & Contact
             </a>
           </div>
+          </div>
 
           <div className="flex items-center gap-4">
           
@@ -150,7 +151,7 @@ export default function Home() {
                 <FileDown size={16} />
                 Resume
               </a>
-            </div>
+          
             </div>
         </div>
       </nav>
