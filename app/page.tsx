@@ -398,19 +398,26 @@ export default function Home() {
         >
           <div>
             Email:{" "}
-            <a
-              href="mailto:aadilmansoori111@gmail.com"
-              className="text-[#E11D48] hover:underline"
-            >
-              aadilmansoori111@gmail.com
-            </a>
+          <a
+            href="mailto:aadilmansoori111@gmail.com"
+            className={`hover:underline ${
+              isLight ? "text-[#E11D48]" : "text-blue-400"
+            }`}
+          >
+            aadilmansoori111@gmail.com
+          </a>
           </div>
 
           <div>
             Phone:{" "}
-            <a href="tel:+919340482240" className="text-[#E11D48] hover:underline">
-              +91 9340482240
-            </a>
+          <a
+            href="tel:+919340482240"
+            className={`hover:underline ${
+              isLight ? "text-[#E11D48]" : "text-blue-400"
+            }`}
+          >
+            +91 9340482240
+          </a>
           </div>
 
           <div>Location: Mumbai, India</div>
