@@ -89,19 +89,21 @@ export default function Home() {
 
           <div className="flex items-center gap-4">
             {/* 🔘 DARK / LIGHT TOGGLE */}
-            <button
-              onClick={() => setIsLight(!isLight)}
-              className={`p-2 rounded-full border ${
-                isLight ? "border-gray-300" : "border-gray-600"
-              }`}
-              title="Toggle theme"
-            >
-              {isLight ? (
-                <MoonIcon className="h-5 w-5" />
-              ) : (
-                <SunIcon className="h-5 w-5" />
-              )}
-            </button>
+          <button
+            onClick={() => setIsLight(!isLight)}
+            aria-label="Toggle theme"
+            className={`p-2 rounded-full border transition ${
+              isLight
+                ? "border-gray-300 hover:border-[#E11D48] hover:text-[#E11D48]"
+                : "border-gray-600 hover:border-blue-400 hover:text-blue-400 hover:shadow-[0_0_8px_rgba(59,130,246,0.6)]"
+            }`}
+          >
+            {isLight ? (
+              <MoonIcon className="h-[18px] w-[18px]" />
+            ) : (
+              <SunIcon className="h-[18px] w-[18px]" />
+            )}
+          </button>
 
             {/* 🔗 SOCIAL + RESUME */}
             <div className="flex items-center gap-3">
