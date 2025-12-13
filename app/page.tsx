@@ -1,5 +1,5 @@
 "use client";
-
+import { Github, Linkedin, FileDown } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
@@ -89,7 +89,8 @@ export default function Home() {
           </div>
 
           <div className="flex items-center gap-4">
-            {/* TOGGLE */}
+          
+            {/* 🔘 DARK / LIGHT TOGGLE — TOUCH NAHI KIYA */}
             <button
               onClick={() => setIsLight(!isLight)}
               className={`p-2 rounded-full border ${
@@ -103,19 +104,54 @@ export default function Home() {
                 <SunIcon className="h-5 w-5" />
               )}
             </button>
-
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              className={`px-4 py-2 rounded-lg text-sm text-white ${
-                isLight
-                  ? "bg-[#E11D48] hover:bg-[#be123c]"
-                  : "bg-blue-600 hover:bg-blue-500"
-              }`}
-            >
-              Resume
-            </a>
-          </div>
+          
+            {/* 🔗 SOCIAL + RESUME */}
+            <div className="flex items-center gap-3">
+          
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME"
+                target="_blank"
+                aria-label="LinkedIn"
+                className={`p-2 rounded-full border transition
+                  ${isLight
+                    ? "border-gray-300 hover:border-[#E11D48] hover:text-[#E11D48]"
+                    : "border-gray-600 hover:border-blue-400 hover:text-blue-400"
+                  }`}
+              >
+                <Linkedin size={18} />
+              </a>
+          
+              {/* GitHub */}
+              <a
+                href="https://github.com/Data-with-Aadil"
+                target="_blank"
+                aria-label="GitHub"
+                className={`p-2 rounded-full border transition
+                  ${isLight
+                    ? "border-gray-300 hover:border-[#E11D48] hover:text-[#E11D48]"
+                    : "border-gray-600 hover:border-blue-400 hover:text-blue-400"
+                  }`}
+              >
+                <Github size={18} />
+              </a>
+          
+              {/* ⭐ SPECIAL RESUME BUTTON */}
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-full
+                  font-semibold shadow-md transition
+                  ${isLight
+                    ? "bg-[#E11D48] text-white hover:bg-[#be123c]"
+                    : "bg-blue-600 text-white hover:bg-blue-500"
+                  }`}
+              >
+                <FileDown size={16} />
+                Resume
+              </a>
+          
+            </div>
         </div>
       </nav>
 
@@ -319,13 +355,33 @@ export default function Home() {
         </p>
         <div className="my-12 border-t border-[#24325F] opacity-50"></div>   
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
-        <p className={`list-disc pl-5 space-y-2 ${
-                isLight ? "text-gray-700" : "text-gray-300"
-            }`}>
-          Email: aadilmansoori111@gmail.com <br />
-          Phone: +91 9340482240 <br />
+      <div className={`${isLight ? "text-gray-700" : "text-gray-300"} space-y-2`}>
+      
+        <div>
+          Email:{" "}
+          <a
+            href="mailto:aadilmansoori111@gmail.com"
+            className="text-[#E11D48] hover:underline"
+          >
+            aadilmansoori111@gmail.com
+          </a>
+        </div>
+      
+        <div>
+          Phone:{" "}
+          <a
+            href="tel:+919340482240"
+            className="text-[#E11D48] hover:underline"
+          >
+            +91 9340482240
+          </a>
+        </div>
+      
+        <div>
           Location: Mumbai, India
-        </p>
+        </div>
+      
+      </div>
       </section>
 
       {/* ================= FOOTER ================= */}
