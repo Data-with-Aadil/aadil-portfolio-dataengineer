@@ -302,11 +302,12 @@ export default function Home() {
         <div className="space-y-12 max-w-5xl">
           <div>
             <h3 className="text-xl font-semibold text-blue-400">
-              Senior Data Engineer — Deloitte USI (HashedIn)
+              Senior Data Engineer —{" "}
+              <span className={`${isLight ? "text-[#FF3621]" : "text-white"}`}>
+                Deloitte USI (HashedIn)
+              </span>
             </h3>
-            <p
-              className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}
-            >
+            <p className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}>
               May 2024 – Present | Mumbai
             </p>
             <ul
@@ -315,33 +316,30 @@ export default function Home() {
               }`}
             >
               <li>
-                Designed Databricks Lakehouse (Raw → Silver → Gold) pipelines
-                for clinical & insurance data
+                Designed Databricks Lakehouse (Raw → Silver → Gold) pipelines for clinical &
+                insurance data
               </li>
               <li>
-                Implemented Delta Lake optimizations, Spark tuning, and job
-                performance improvements (~30%)
+                Implemented Delta Lake optimizations, Spark tuning, and job performance
+                improvements (~30%)
               </li>
               <li>
-                Built governance framework with column-level security, audits,
-                HIPAA & GDPR compliance
+                Built governance framework with column-level security, audits, HIPAA & GDPR
+                compliance
               </li>
-              <li>
-                Worked with AWS Glue, S3, Redshift for analytics consumption
-              </li>
-              <li>
-                Led 5-member team, design reviews, UAT & production releases
-              </li>
+              <li>Worked with AWS Glue, S3, Redshift for analytics consumption</li>
+              <li>Led 5-member team, design reviews, UAT & production releases</li>
             </ul>
           </div>
-
+          
           <div>
             <h3 className="text-xl font-semibold text-blue-400">
-              Data Engineer — Course5 Intelligence
+              Data Engineer —{" "}
+              <span className={`${isLight ? "text-[#FF3621]" : "text-white"}`}>
+                Course5 Intelligence
+              </span>
             </h3>
-            <p
-              className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}
-            >
+            <p className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}>
               Feb 2022 – May 2024 | Mumbai
             </p>
             <ul
@@ -349,24 +347,21 @@ export default function Home() {
                 isLight ? "text-gray-700" : "text-gray-300"
               }`}
             >
-              <li>
-                Built Azure-based ETL pipelines using ADLS, Synapse, Delta Lake
-              </li>
+              <li>Built Azure-based ETL pipelines using ADLS, Synapse, Delta Lake</li>
               <li>Implemented SCD & CDC logic for analytical datasets</li>
-              <li>
-                Optimized Spark workloads achieving ~30% processing reduction
-              </li>
+              <li>Optimized Spark workloads achieving ~30% processing reduction</li>
               <li>Supported Power BI reporting & analytics layers</li>
             </ul>
           </div>
-
+          
           <div>
             <h3 className="text-xl font-semibold text-blue-400">
-              Trainee Analyst — Ineuron.ai
+              Trainee Analyst —{" "}
+              <span className={`${isLight ? "text-[#FF3621]" : "text-white"}`}>
+                Ineuron.ai
+              </span>
             </h3>
-            <p
-              className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}
-            >
+            <p className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}>
               Feb 2021 – Feb 2022 | Bangalore
             </p>
             <ul
