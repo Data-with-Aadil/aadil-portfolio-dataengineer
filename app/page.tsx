@@ -171,14 +171,14 @@ export default function Home() {
               Aadil Mansoori
             </h1>
 
-              <p className="text-xl sm:text-2xl mb-6">
+            <p className="text-xl sm:text-2xl mb-6">
                 isLight ? "text-[#E11D48]" : "text-blue-400"
               }`}
             >
               Senior Data Engineer
             </p>
 
-              <p className="text-xl sm:text-2xl mb-6">
+            <p className="text-xl sm:text-2xl mb-6">
                 isLight ? "text-gray-600" : "text-gray-300"
               }`}
             >
