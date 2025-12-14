@@ -202,10 +202,10 @@ export default function Home() {
 
               <a
                 href="#experience"
-                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
+                className={`px-6 py-3 rounded-lg font-medium border transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
                   isLight
-                    ? "bg-[#E11D48] text-white hover:bg-[#be123c] hover:shadow-[#E11D48]/40"
-                    : "bg-blue-600 text-white hover:bg-blue-500 hover:shadow-blue-500/40"
+                    ? "border-gray-300 text-gray-800 hover:border-[#E11D48] hover:text-[#E11D48] hover:shadow-[#E11D48]/30"
+                    : "border-gray-600 text-gray-300 hover:border-blue-400 hover:text-blue-400 hover:shadow-blue-400/30"
                 }`}
               >
                 View Experience
