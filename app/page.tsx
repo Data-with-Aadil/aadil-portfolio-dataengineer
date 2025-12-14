@@ -301,11 +301,12 @@ export default function Home() {
 
         <div className="space-y-12 max-w-5xl">
           <div>
-            <h3 className="text-xl font-semibold text-blue-400">
-              Senior Data Engineer —{" "}
-              <span className={`${isLight ? "text-[#FF3621]" : "text-white"}`}>
-                Deloitte USI (HashedIn)
-              </span>
+            <h3
+              className={`text-xl font-semibold transition-colors ${
+                isLight ? "text-[#FF3621]" : "text-white"
+              }`}
+            >
+              Senior Data Engineer — Deloitte USI (HashedIn)
             </h3>
             <p className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}>
               May 2024 – Present | Mumbai
@@ -333,11 +334,12 @@ export default function Home() {
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold text-blue-400">
-              Data Engineer —{" "}
-              <span className={`${isLight ? "text-[#FF3621]" : "text-white"}`}>
-                Course5 Intelligence
-              </span>
+            <h3
+              className={`text-xl font-semibold transition-colors ${
+                isLight ? "text-[#FF3621]" : "text-white"
+              }`}
+            >
+              Data Engineer — Course5 Intelligence
             </h3>
             <p className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}>
               Feb 2022 – May 2024 | Mumbai
@@ -355,11 +357,12 @@ export default function Home() {
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold text-blue-400">
-              Trainee Analyst —{" "}
-              <span className={`${isLight ? "text-[#FF3621]" : "text-white"}`}>
-                Ineuron.ai
-              </span>
+            <h3
+              className={`text-xl font-semibold transition-colors ${
+                isLight ? "text-[#FF3621]" : "text-white"
+              }`}
+            >
+              Trainee Analyst — Ineuron.ai
             </h3>
             <p className={`${isLight ? "text-gray-600" : "text-gray-400"} mb-4`}>
               Feb 2021 – Feb 2022 | Bangalore
