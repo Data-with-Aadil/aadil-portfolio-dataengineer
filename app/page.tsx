@@ -23,7 +23,7 @@ export default function Home() {
             : "bg-[#0E1629]/90 border-[#1E2A4A]"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
           <span
             className={`font-bold text-lg ${
               isLight ? "text-[#E11D48]" : "text-blue-400"
@@ -164,15 +164,15 @@ export default function Home() {
             : "bg-gradient-to-b from-[#111B36] to-[#0E1629]"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
           {/* TEXT */}
           <div>
-            <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
               Aadil Mansoori
             </h1>
 
             <p
-              className={`text-2xl mb-6 ${
+              <p className="text-xl sm:text-2xl mb-6">
                 isLight ? "text-[#E11D48]" : "text-blue-400"
               }`}
             >
@@ -180,14 +180,14 @@ export default function Home() {
             </p>
 
             <p
-              className={`text-lg mb-8 ${
+              <p className="text-xl sm:text-2xl mb-6">
                 isLight ? "text-gray-600" : "text-gray-300"
               }`}
             >
               Databricks · Azure · AWS · Big Data · Spark · SQL
             </p>
 
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="/resume.pdf"
                 target="_blank"
@@ -215,8 +215,7 @@ export default function Home() {
 
           {/* PHOTO */}
           <div className="flex justify-center">
-            <div
-              className={`relative w-72 h-72 rounded-full overflow-hidden border-4 shadow-xl ${
+              <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 shadow-xl">
                 isLight ? "border-[#E11D48]" : "border-blue-500"
               }`}
             >
