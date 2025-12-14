@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <main
       className={`scroll-smooth ${
-        isLight ? "bg-white text-[#111827]" : "bg-[#0E1629] text-white"
+        isLight
+          ? "bg-[#F9FAFB] text-[#111827]"
+          : "bg-gradient-to-br from-[#0E1629] via-[#0B1220] to-[#020617] text-white"
       }`}
     >
       {/* ================= NAVBAR ================= */}
