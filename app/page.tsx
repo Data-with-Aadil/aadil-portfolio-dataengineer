@@ -302,7 +302,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-12">Experience</h2>
 
         <div className="space-y-12 max-w-5xl">
-          <div>
+          <div className="transition-transform duration-200 hover:-translate-y-1">
             <h3
               className={`text-xl font-semibold transition-colors ${
                 isLight ? "text-[#FF3621]" : "text-blue-400"
@@ -335,7 +335,7 @@ export default function Home() {
             </ul>
           </div>
           
-          <div>
+          <div className="transition-transform duration-200 hover:-translate-y-1">
             <h3
               className={`text-xl font-semibold transition-colors ${
                 isLight ? "text-[#FF3621]" : "text-blue-400"
@@ -358,7 +358,7 @@ export default function Home() {
             </ul>
           </div>
           
-          <div>
+          <div className="transition-transform duration-200 hover:-translate-y-1">
             <h3
               className={`text-xl font-semibold transition-colors ${
                 isLight ? "text-[#FF3621]" : "text-blue-400"
