@@ -114,10 +114,10 @@ export default function Home() {
                 href="https://www.linkedin.com/in/aadil-mansoori-29b358211/"
                 target="_blank"
                 aria-label="LinkedIn"
-                className={`p-2 rounded-full border transition ${
+                className={`p-2 rounded-full border transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
                   isLight
-                    ? "border-gray-300 hover:border-[#E11D48] hover:text-[#E11D48]"
-                    : "border-gray-600 hover:border-blue-400 hover:text-blue-400"
+                    ? "border-gray-300 text-gray-700 hover:border-[#E11D48] hover:text-[#E11D48] hover:shadow-[#E11D48]/30"
+                    : "border-gray-600 text-gray-300 hover:border-blue-400 hover:text-blue-400 hover:shadow-blue-400/30"
                 }`}
               >
                 <Linkedin size={18} />
@@ -128,10 +128,10 @@ export default function Home() {
                 href="https://github.com/Data-with-Aadil"
                 target="_blank"
                 aria-label="GitHub"
-                className={`p-2 rounded-full border transition ${
+                className={`p-2 rounded-full border transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
                   isLight
-                    ? "border-gray-300 hover:border-[#E11D48] hover:text-[#E11D48]"
-                    : "border-gray-600 hover:border-blue-400 hover:text-blue-400"
+                    ? "border-gray-300 text-gray-700 hover:border-[#E11D48] hover:text-[#E11D48] hover:shadow-[#E11D48]/30"
+                    : "border-gray-600 text-gray-300 hover:border-blue-400 hover:text-blue-400 hover:shadow-blue-400/30"
                 }`}
               >
                 <Github size={18} />
@@ -141,10 +141,10 @@ export default function Home() {
               <a
                 href="/resume.pdf"
                 target="_blank"
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold shadow-md transition ${
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold shadow-md transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
                   isLight
-                    ? "bg-[#E11D48] text-white hover:bg-[#be123c]"
-                    : "bg-blue-600 text-white hover:bg-blue-500"
+                    ? "bg-[#E11D48] text-white hover:bg-[#be123c] hover:shadow-[#E11D48]/40"
+                    : "bg-blue-600 text-white hover:bg-blue-500 hover:shadow-blue-500/40"
                 }`}
               >
                 <FileDown size={16} />
