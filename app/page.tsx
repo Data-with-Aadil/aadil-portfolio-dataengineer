@@ -303,7 +303,7 @@ export default function Home() {
           <div>
             <h3
               className={`text-xl font-semibold transition-colors ${
-                isLight ? "text-[#FF3621]" : "text-white"
+                isLight ? "text-[#FF3621]" : "text-blue-400"
               }`}
             >
               Senior Data Engineer — Deloitte USI (HashedIn)
@@ -336,7 +336,7 @@ export default function Home() {
           <div>
             <h3
               className={`text-xl font-semibold transition-colors ${
-                isLight ? "text-[#FF3621]" : "text-white"
+                isLight ? "text-[#FF3621]" : "text-blue-400"
               }`}
             >
               Data Engineer — Course5 Intelligence
@@ -359,7 +359,7 @@ export default function Home() {
           <div>
             <h3
               className={`text-xl font-semibold transition-colors ${
-                isLight ? "text-[#FF3621]" : "text-white"
+                isLight ? "text-[#FF3621]" : "text-blue-400"
               }`}
             >
               Trainee Analyst — Ineuron.ai
