@@ -191,10 +191,10 @@ export default function Home() {
               <a
                 href="/resume.pdf"
                 target="_blank"
-                className={`px-6 py-3 rounded-lg text-white ${
+                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
                   isLight
-                    ? "bg-[#E11D48] hover:bg-[#be123c]"
-                    : "bg-blue-600 hover:bg-blue-500"
+                    ? "bg-[#E11D48] text-white hover:bg-[#be123c] hover:shadow-[#E11D48]/40"
+                    : "bg-blue-600 text-white hover:bg-blue-500 hover:shadow-blue-500/40"
                 }`}
               >
                 Download Resume
@@ -202,10 +202,10 @@ export default function Home() {
 
               <a
                 href="#experience"
-                className={`px-6 py-3 border rounded-lg ${
+                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
                   isLight
-                    ? "border-gray-400 hover:border-gray-700"
-                    : "border-gray-600 hover:border-white"
+                    ? "bg-[#E11D48] text-white hover:bg-[#be123c] hover:shadow-[#E11D48]/40"
+                    : "bg-blue-600 text-white hover:bg-blue-500 hover:shadow-blue-500/40"
                 }`}
               >
                 View Experience
