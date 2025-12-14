@@ -94,10 +94,10 @@ export default function Home() {
           <button
             onClick={() => setIsLight(!isLight)}
             aria-label="Toggle theme"
-            className={`p-2 rounded-full border transition ${
+            className={`p-2 rounded-full border transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${
               isLight
-                ? "border-gray-300 hover:border-[#E11D48] hover:text-[#E11D48]"
-                : "border-gray-600 hover:border-blue-400 hover:text-blue-400 hover:shadow-[0_0_8px_rgba(59,130,246,0.6)]"
+                ? "border-gray-300 text-gray-700 hover:border-[#E11D48] hover:text-[#E11D48] hover:shadow-[#E11D48]/30"
+                : "border-gray-600 text-gray-300 hover:border-blue-400 hover:text-blue-400 hover:shadow-blue-400/30"
             }`}
           >
             {isLight ? (
